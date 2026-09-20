@@ -1,0 +1,1 @@
+#Un type de données est une manière de classifier les différentes variables

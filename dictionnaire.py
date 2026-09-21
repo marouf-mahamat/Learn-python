@@ -66,3 +66,44 @@ del infos_labradoodle["origine"]
 
 
 "poids" in infos_labradoodle
+
+
+S1=dict ({"nom":"iphonr","prix":"999"})
+
+# get() ppermet d'acceder a une valeur dans un dictionnaire a partir d'une sans generer d'erreur si la cle n'existe pas
+# syntaxe  valeur = nomDict.get(cle)
+#print( nomDict.get(cle))
+
+etudiants= {
+    "nom":"iphonr",
+    "prix":"999"
+}
+
+print("nom",etudiants.get("nom "))
+
+# items() renvoie toutes les paires cle-valeur du dictionnaire sous form tuple
+print(etudiants.items())
+
+#keys() permet d'obtenir une vue de types dict_keys contenant toutes les cles du dictionnaire
+
+#syntaxes
+print(etudiants.keys())
+
+#values() renvoie une vue de types value contenant toutes les valeurs du dictionnaire 
+
+print(etudiants.values())
+
+#update() ajout ou modification 
+
+# etudiants.update({cle:valeur}) 
+
+#setdefault() recupere la valeur de la cle ,elle ajoute si nexiste pas 
+etudiants.setdefault("filiere","info")
+
+#pop()
+
+#sorted trie pour donner une liste
+
+sorted(etudiants)
+
+#copy()
